@@ -1,5 +1,11 @@
+import ClientHeader from "../components/clients/ClientHeader";
+
 function Clients() {
-  return <h1>Clients</h1>;
+  return (
+    <div className="space-y-8">
+      <ClientHeader />
+    </div>
+  );
 }
 
 export default Clients;

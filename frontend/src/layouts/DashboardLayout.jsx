@@ -5,13 +5,10 @@ import Navbar from "../components/layout/Navbar";
 function DashboardLayout() {
   return (
     <div className="flex min-h-screen bg-slate-950">
-      {/* Sidebar */}
       <Sidebar />
 
-      {/* Main Content */}
       <div className="flex flex-1 flex-col">
         <Navbar />
-
         <main className="flex-1 p-8">
           <Outlet />
         </main>
